@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row form{
+    margin-top: 18px;
+    margin-left: 100px;
+    border:  1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row form h3{
+    color: #000;
+    text-align: center;
+}
+
+.row form label{
+    color: #000;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.row form input{
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.row button{
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    left: -1550px;
+    top: -100px;
+}
+
+.row button a{
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+}
